@@ -5,7 +5,7 @@ obj/
 # Rider
 .ide/
 
-#Las Credenciales de Firebase no se deben subir a git
+# Las Credenciales de Firebase no se deben subir a git
 # Usamos **/ para que funcione sin importar en que subnivel esta
 **/Config/firebase-credentials.json
 
