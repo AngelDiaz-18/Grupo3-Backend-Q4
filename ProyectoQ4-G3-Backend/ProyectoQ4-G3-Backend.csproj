@@ -12,7 +12,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Config\" />
       <Folder Include="Controllers\" />
       <Folder Include="DTOs\" />
       <Folder Include="Models\" />
