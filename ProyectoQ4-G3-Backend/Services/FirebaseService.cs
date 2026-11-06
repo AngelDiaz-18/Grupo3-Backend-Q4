@@ -1,4 +1,3 @@
-using Google.Cloud.firestore;
 using Google.Cloud.Firestore;
 
 namespace ProyectoQ4_G3_Backend.Services;
@@ -11,12 +10,12 @@ public class FirebaseService
     {
         var credentialsPath = Path.Combine(AppContext.BaseDirectory, "Config", "firebase-credentials.json");
         Environment.SetEnvironmentVariable("GOOGLE_APPLICATION_CREDENTIALS", credentialsPath);
-        
-        _firestoreDb = _firestoreDb.Create( projectId: "proyecto-beac2");
-        
-        public CollectionReference GetCollection(string collectionName)
-            {
-            return _firestoreDb.Collection(collectionName);
-            
+
+        _firestoreDb = FirestoreDb.Create(projectId: "proyecto-beac2");
     }
+
+    public CollectionReference GetCollection(string collectionName)
+        {
+            return _firestoreDb.Collection(collectionName);
+        }
 }
