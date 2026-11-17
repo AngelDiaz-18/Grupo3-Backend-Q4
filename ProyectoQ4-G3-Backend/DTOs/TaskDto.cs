@@ -5,4 +5,5 @@ public class TaskDto
     public string Tittle { get; set; } = string.Empty;
     public string Description { get; set; } = string.Empty;
     public string Priority { get; set; } = "media";
+    public string Title { get; set; }
 }
