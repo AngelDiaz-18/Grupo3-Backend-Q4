@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProyectoQ4-G3-Backend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4da8ebd2aa404497644d759138d3682d32c7511a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4190a2431024aa0c9b8d8153e1474570f620f87b")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProyectoQ4-G3-Backend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProyectoQ4-G3-Backend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
